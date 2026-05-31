@@ -1,0 +1,22 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        string[] quotes =
+        {
+            "Knowledge is power.",
+            "Code never lies, comments sometimes do.",
+            "Stay curious.",
+            "Learning never stops.",
+            "Small steps lead to big results."
+        };
+
+        Random random = new Random();
+
+        Console.WriteLine(
+            quotes[random.Next(quotes.Length)]
+        );
+    }
+}
