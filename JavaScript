@@ -1,0 +1,12 @@
+const quotes = [
+  "Knowledge is power.",
+  "Code never lies, comments sometimes do.",
+  "Stay curious.",
+  "Learning never stops.",
+  "Small steps lead to big results."
+];
+
+const randomQuote =
+  quotes[Math.floor(Math.random() * quotes.length)];
+
+console.log(randomQuote);
