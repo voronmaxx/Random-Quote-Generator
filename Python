@@ -1,0 +1,11 @@
+import random
+
+quotes = [
+    "Knowledge is power.",
+    "Code never lies, comments sometimes do.",
+    "Stay curious.",
+    "Learning never stops.",
+    "Small steps lead to big results."
+]
+
+print(random.choice(quotes))
